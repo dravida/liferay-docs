@@ -58,7 +58,7 @@ Next, you must create credentials to use with the Google API.
     - **Authorized JavaScript origins**: `[liferay-instance-URL]` (e.g., 
     `http://localhost:8080` by default for local development machines)
 
-    - **Authorized redirect URIs**: `[liferay-instance-URL]/oath2callback`
+    - **Authorized redirect URIs**: `[liferay-instance-URL]/oauth2callback`
 
 3.  Create a new API key. Restrict the key to HTTP referrers (web sites), and 
     set it to accept requests from your @product@ instance's URL. 
